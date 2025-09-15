@@ -1,44 +1,44 @@
 {
-  "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-    "paths": {
-      "@/*": ["./src/*"],
-      "@/ui": ["./src/components/ui"],
-      "@/widgets": ["./src/components/widgets"],
-      "@/shared": ["./src/components/shared"],
-      "@/skeletons": ["./src/components/skeletons"],
-      "@/providers": ["./src/providers"],
-      "@/config": ["./src/config"],
-      "@/constants": ["./src/utils/constants"],
-      "@/data": ["./src/data"],
-      "@/schemas": ["./src/utils/schemas"],
-      "@/helpers": ["./src/helpers"],
-      "@/hooks": ["./src/hooks"],
-      "@/stores": ["./src/stores"],
-      "@/services": ["./src/services"],
-      "@/utils": ["./src/utils"],
-      "@/icons": ["./src/utils/lib/icons"],
-      "@/types": ["./src/utils/types"],
-      "@/features": ["./src/features"]
-    }
-  },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+	"compilerOptions": {
+		"target": "ES2017",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"noEmit": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"incremental": true,
+		"plugins": [
+			{
+				"name": "next"
+			}
+		],
+		"paths": {
+			"@/*": ["./src/*"],
+			"@/ui": ["./src/components/ui"],
+			"@/widgets": ["./src/components/widgets"],
+			"@/shared": ["./src/components/shared"],
+			"@/skeletons": ["./src/components/skeletons"],
+			"@/providers": ["./src/providers"],
+			"@/config": ["./src/config"],
+			"@/constants": ["./src/utils/constants"],
+			"@/data": ["./src/data"],
+			"@/schemas": ["./src/utils/schemas"],
+			"@/helpers": ["./src/helpers"],
+			"@/hooks": ["./src/hooks"],
+			"@/stores": ["./src/stores"],
+			"@/services": ["./src/services"],
+			"@/utils": ["./src/utils"],
+			"@/icons": ["./src/utils/lib/icons"],
+			"@/types": ["./src/utils/types"],
+			"@/features": ["./src/features"]
+		}
+	},
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+	"exclude": ["node_modules"]
 }
